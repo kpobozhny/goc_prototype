@@ -1,0 +1,32 @@
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header{
+    margin-top: 4px;
+}
+
+
+
+.login-zone{
+    float: right;
+    margin: 3px;
+}
+
+.login-zone li{
+    display: inline-block;
+}
+
+#logo-zone{
+      text-align: center;
+      vertical-align: middle;
+}
+
+#logoAndName {
+
+  vertical-align: middle;
+}
