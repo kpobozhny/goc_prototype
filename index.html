@@ -1,49 +1,92 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <title>Games Of Champions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
-  </head>
-  <body>
+</head>
+<body>
 
-    <div class="container-fluid" >
-      <header>
-        <div class="row">
-          <div class="col header-left"></div>
-          <div class="col header-right">
-            <ul class="login-zone">
-              <li><a id="login-link" href="#">Login</a></li>
+<div class="container-fluid">
+
+    <div class="row header">
+        <div class="col header-left"></div>
+        <div class="col header-right">
+            <ul class="nav login-zone">
+                <li class="nav-item align-self-end"><a id="login-link" class="btn btn-default" href="#">Login</a>
+                </li>
             </ul>
-          </div>
         </div>
-      </header>
-      <div class="row align-items-center content">
-        <div id="logo-zone" class="col">
-          <img id="logoAndName" src="images/logoAndName.png">
-        </div>
-      </div>
-
-      <footer>
-          <div class="row">
-
-          </div>
-      </footer>
-
     </div>
 
-    <div class="login-dialog"></div>
+    <div class="row content">
+        <div class="col">
+            <div class="row">
+                <div id="logo-zone" class="col">
+                    <img id="logoAndName" src="images/logoAndName.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table id="tournamentList" class="table table-sm table-hover">
+                        <tbody>
+                        <tr>
+                            <td class="userOptions">
+                                <img src="images/icons/ic_check_circle_black_24dp_1x.png"
+                                     title="You are in with 'FC Kyiv'!">
+                            </td>
+                            <td class="description"><a href="matchday.html">KSTT League</a></td>
+                        </tr>
+                        <tr>
+                            <td class="userOptions">
+                                <img src="images/icons/ic_check_circle_black_24dp_1x.png"
+                                     title="You are in with 'FC Kyiv'!">
+                            </td>
+                            <td class="description">Playtech League</td>
+                        </tr>
+                        <tr>
+                            <td class="userOptions">
+                                <button type="button" class="btn btn-success btn-sm">Apply</button>
+                            </td>
+                            <td class="description">Luxoft League</td>
+                        </tr>
+                        <tr>
+                            <td class="userOptions">
+                                <button type="button" class="btn btn-success btn-sm">Apply</button>
+                            </td>
+                            <td class="description">Carlsberg League</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="login-dialog"></div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</body>
 </html>

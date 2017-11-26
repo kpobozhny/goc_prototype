@@ -1,3 +1,6 @@
+body{
+font-family: "Courier New";
+}
 
 .content{
     position: absolute;
@@ -21,7 +24,7 @@ header{
     display: inline-block;
 }
 
-#logo-zone{
+#logo-zone, #matchday{
       text-align: center;
       vertical-align: middle;
 }
@@ -29,4 +32,48 @@ header{
 #logoAndName {
 
   vertical-align: middle;
+}
+
+#tournamentList{
+    margin: 10px;
+
+}
+
+#left-arrow, .userOptions, .host-team{
+    float: right;
+}
+
+#right-arrow, .guest-team{
+    float: left;
+}
+
+#tournamentList td, #matches td {
+    vertical-align: middle;
+    border: 0px;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+
+
+}
+
+td.score{
+    width:1%;
+    white-space:nowrap;
+}
+
+#tournamentList .btn, h4{
+    font-weight: bold;
+}
+
+
+#home-img{
+    float: left;
+    height: 10%;
+    width: 40%;
+    padding: 0;
+    border: 0 !important; /*Removes border*/
+    /*background: radial-gradient(#cdcdcd, #727272);*/
+    background: transparent;
+    border-radius: 15px;
+
 }
