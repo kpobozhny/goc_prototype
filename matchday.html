@@ -17,7 +17,7 @@
 <div class="container-fluid">
 
     <div class="row header">
-        <div class="col header-left">
+        <div class="col-6 header-left">
             <ul class="nav">
                 <li class="nav-item align-self-start">
                     <a id="home-link" class="btn btn-default" href="index.html">
@@ -26,7 +26,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col header-right">
+        <div class="col-6 header-right">
             <ul class="nav login-zone">
                 <li class="nav-item align-self-end"><a id="login-link" class="btn btn-default" href="#">Login</a>
                 </li>
@@ -35,34 +35,30 @@
     </div>
     <hr>
 
-    <div id="tournament-name" class="row">
-        <div class="col">
-            <h4 class="text-center">KSTT League</h4>
+    <div id="tournament-name" class="row justify-content-center">
+        <div class="col-3">
+            <h5 class="text-center">KSTT League</h5>
         </div>
 
     </div>
 
     <div class="row content-matchday">
         <div class="col">
-            <div class="row">
-                <div class="col">
-                    <table id="matchday-title" class="table table-sm table-hover">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <table id="matchday-title" class="table table-sm">
                         <tbody>
                         <tr>
-                            <td id="left-arrow">
-                                <img src="images/icons/ic_chevron_left_black_24dp_1x.png">
-                            </td>
-                            <td id="matchday"><p>Match Day 9</p></td>
-                            <td id="right-arrow">
-                                <img src="images/icons/ic_chevron_right_black_24dp_1x.png">
-                            </td>
+                            <td id="left-arrow"><b><</b></td>
+                            <td id="matchday">Match Day 9</td>
+                            <td id="right-arrow"><b>></b></td>
                         </tr>
                         </tbody>
                      </table>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row justify-content-center">
+                <div class="col-3">
                     <table id="matches" class="table table-sm table-hover">
                         <tbody>
                         <tr>
@@ -72,7 +68,7 @@
                         </tr>
                         <tr>
                             <td class="host-team">FC Kyiv</td>
-                            <td class="score">- : -</td>
+                            <td class="score"><a href="match.html">- : -</a></td>
                             <td class="guest-team">Crazy Band</td>
                         </tr>
                         <tr>
@@ -119,6 +115,269 @@
                     </table>
                 </div>
 
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <table id="standings" class="table table-sm table-striped">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Played</th>
+                            <th scope="col">Won</th>
+                            <th scope="col">Drawn</th>
+                            <th scope="col">Lost</th>
+                            <th scope="col">GF</th>
+                            <th scope="col">GA</th>
+                            <th scope="col">GD</th>
+                            <th scope="col">Points</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>FC Kyiv</td>
+                            <td>8</td>
+                            <td>7</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>29</td>
+                            <td>4</td>
+                            <td>+25</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Milanista</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>21</td>
+                            <td>2</td>
+                            <td>+19</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Crazy Band</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>15</td>
+                            <td>5</td>
+                            <td>+10</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Sheva Team</td>
+                            <td>8</td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td>0</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Fighters</td>
+                            <td>8</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>13</td>
+                            <td>8</td>
+                            <td>+5</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>FC Oslo</td>
+                            <td>8</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>12</td>
+                            <td>10</td>
+                            <td>+2</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>AC Tor</td>
+                            <td>8</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>8</td>
+                            <td>6</td>
+                            <td>+2</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Barsa</td>
+                            <td>8</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>+1</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Atsteky</td>
+                            <td>8</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>9</td>
+                            <td>8</td>
+                            <td>+1</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>FC Lviv</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>7</td>
+                            <td>9</td>
+                            <td>-2</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>Loosers</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>7</td>
+                            <td>9</td>
+                            <td>-2</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12</th>
+                            <td>Tampere</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>9</td>
+                            <td>-4</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13</th>
+                            <td>FC Tank</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>8</td>
+                            <td>-3</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14</th>
+                            <td>Juvetini</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>6</td>
+                            <td>10</td>
+                            <td>-4</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15</th>
+                            <td>Interista</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>14</td>
+                            <td>-6</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16</th>
+                            <td>Manchester</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>13</td>
+                            <td>-8</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17</th>
+                            <td>Lions</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>9</td>
+                            <td>18</td>
+                            <td>-9</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18</th>
+                            <td>Birds</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>10</td>
+                            <td>13</td>
+                            <td>-3</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19</th>
+                            <td>Big Brothers</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>12</td>
+                            <td>-8</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20</th>
+                            <td>Londoners</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>18</td>
+                            <td>-16</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
             </div>
         </div>
     </div>

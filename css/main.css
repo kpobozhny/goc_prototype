@@ -1,5 +1,6 @@
 body{
 font-family: "Courier New";
+font-size: 12px;
 }
 
 .content{
@@ -47,11 +48,13 @@ header{
     float: left;
 }
 
-#tournamentList td, #matches td {
+#tournamentList td, #matches td, #match-name td, #match-forecasts td, #standings td,
+#tournamentList th, #matches th, #match-name th, #match-forecasts th, #standings th {
     vertical-align: middle;
     border: 0px;
     font-weight: bold;
     padding: 2px 5px 2px 5px;
+    text-align: center;
 
 
 }
@@ -76,4 +79,8 @@ td.score{
     background: transparent;
     border-radius: 15px;
 
+}
+
+.pointers{
+ font-size: 9px;
 }
