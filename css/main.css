@@ -1,6 +1,24 @@
 body{
 font-family: "Courier New";
-font-size: 12px;
+font-size: 13px;
+}
+
+.btn-options{
+  padding: 1px 4px 1px 4px;
+
+}
+
+.buttons-zone{
+    background-color: #fff;
+}
+
+.enter-goals{
+    width: 15px;
+        height: 15px;
+        margin: 1px;
+        padding: 1px 1px 2px 1px;
+        text-align: center;
+        vertical-align: middle;
 }
 
 .content{
@@ -53,7 +71,7 @@ header{
     vertical-align: middle;
     border: 0px;
     font-weight: bold;
-    padding: 2px 5px 2px 5px;
+    padding: 5px 2px 5px 2px;
     text-align: center;
 
 
