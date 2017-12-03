@@ -16,28 +16,26 @@
 
 <div class="container-fluid">
 
-    <div class="row header">
-        <div class="col-6 header-left">
-            <ul class="nav">
-                <li class="nav-item align-self-start">
-                    <a id="home-link" class="btn btn-default" href="index.html">
-                        <img id="home-img" src="images/logoAndName.png">
-                    </a>
-                </li>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img width="180" height="30" class="d-inline-block align-top" alt="" src="images/logoAndName.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
             </ul>
+    <span class="navbar-text">
+      <a class="btn btn-default" href="#">Login</a>
+    </span>
         </div>
-        <div class="col-6 header-right">
-            <ul class="nav login-zone">
-                <li class="nav-item align-self-end"><a id="login-link" class="btn btn-default" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <hr>
+    </nav>
 
     <div id="tournament-name" class="row justify-content-center">
         <div class="col-3">
-            <h6 class="text-center"><a href="matchday.html">KSTT League/Match Day 9</a></h6>
+            <h6 class="text-center"><a href="matchday.html"><h5>KSTT League/Match Day 9</h5></a></h6>
         </div>
 
     </div>
@@ -49,14 +47,14 @@
                     <table id="match-name" class="table table-sm">
                         <tbody>
                         <tr>
-                            <td id="host-name">FC Kyiv</td>
-                            <td id="match-result"><b>- : -</b></td>
-                            <td id="guest-name">Crazy Band</td>
+                            <td id="host-name" class="text-right lead">FC Kyiv</td>
+                            <td id="match-result" class="text-center lead"><b>- : -</b></td>
+                            <td id="guest-name" class="text-left lead">Crazy Band</td>
                         </tr>
                         <tr>
-                            <td id="host-pointer" class="pointers">(Host)</td>
+                            <td id="host-pointer" class="pointers text-center">(Host)</td>
                             <td></td>
-                            <td id="guest-pointer" class="pointers">(Guest)</td>
+                            <td id="guest-pointer" class="pointers text-center">(Guest)</td>
                         </tr>
                         </tbody>
                     </table>
@@ -65,7 +63,7 @@
             <br/>
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <table id="match-forecasts" class="table table-sm table-striped">
+                    <table id="match-forecasts" class="table table-sm table-striped text-center">
                         <thead class="thead-dark">
                         <tr>
                             <th scope="col">#</th>
@@ -164,14 +162,14 @@
                             <td>-</td>
                             <td class="buttons-zone">
                                 <button type="button"
-                                        class="btn btn-success btn-sm btn-options"
+                                        class="btn btn-success btn-sm "
                                         title="After confirmation you and your opponent will be able to make a forecast">
                                     Confirm
                                 </button>
                             </td>
                             <td class="buttons-zone">
                                 <button type="button"
-                                        class="btn btn-warning btn-sm btn-options"
+                                        class="btn btn-warning btn-sm "
                                         title="As a host you can replace this match with another one from a backlog. Replacements is avilable until 96 hours before the match starts.">
                                     Replace
                                 </button>
